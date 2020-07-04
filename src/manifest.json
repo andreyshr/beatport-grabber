@@ -1,0 +1,20 @@
+{
+  "name": "Beatport Grabber",
+  "description": "Extension for cataloging and saving your favorite music on Beatport.com",
+  "version": "1.1.4",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icons/beatport-logo.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/beatport-logo.png",
+    "default_title": "Beatport Grabber",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["activeTab", "storage", "unlimitedStorage", "contextMenus"],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
